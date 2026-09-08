@@ -1,0 +1,247 @@
+AI 웹만들기
+오늘 실습
+학습 강의안
+프롬프트
+예제
+온라인 학습
+배포하기
+진로·추천
+🏆 자랑하기
+로그인
+오늘 만들 사이트의 레퍼런스
+
+예제 갤러리
+마음에 드는 예제를 열어보고, 소스코드도 그대로 볼 수 있어요. ⭐ 표시는 오늘 자기소개 사이트에 특히 추천하는 예제입니다.
+
+전체
+개인 소개
+포트폴리오
+랜딩 페이지
+블로그
+학습·대시보드
+회사·브랜드
+미리보기 열기⭐ 추천
+개인 소개
+입문
+미니멀 개인 포트폴리오
+한 페이지 스크롤형 자기소개. 오늘 실습의 기본 뼈대로 딱 좋아요.
+
+미리보기
+새 탭 ↗
+미리보기 열기⭐ 추천
+개인 소개
+입문
+카드형 이력서 (Resume)
+한 장짜리 이력서 카드. 이름·학력·스킬을 깔끔하게.
+
+미리보기
+새 탭 ↗
+미리보기 열기⭐ 추천
+개인 소개
+입문
+링크 인 바이오
+인스타 프로필처럼 내 SNS·링크를 모으는 페이지.
+
+미리보기
+새 탭 ↗
+미리보기 열기
+개인 소개
+중급
+취업 준비 이력 포트폴리오
+프로젝트·경력을 담는 취업용 포트폴리오.
+
+미리보기
+새 탭 ↗
+미리보기 열기
+포트폴리오
+중급
+스튜디오 작업물 포트폴리오
+작업물을 그리드로 뽐내는 갤러리형.
+
+미리보기
+새 탭 ↗
+미리보기 열기
+포트폴리오
+중급
+사진작가 포트폴리오
+사진·이미지 중심 포트폴리오. 취미가 사진이라면.
+
+미리보기
+새 탭 ↗
+미리보기 열기
+랜딩 페이지
+중급
+SaaS 마케팅 랜딩
+서비스 소개형. 내 프로젝트를 제품처럼 소개하기.
+
+미리보기
+새 탭 ↗
+미리보기 열기
+랜딩 페이지
+중급
+모바일 앱 랜딩 (Habit)
+앱 소개 페이지 스타일. 아이디어를 소개할 때.
+
+미리보기
+새 탭 ↗
+미리보기 열기⭐ 추천
+랜딩 페이지
+중급
+음악 페스티벌 랜딩
+화려한 이벤트 페이지. 최애·행사 팬페이지에 어울려요.
+
+미리보기
+새 탭 ↗
+미리보기 열기
+블로그
+입문
+잡지풍 블로그
+글이 주인공인 차분한 블로그.
+
+미리보기
+새 탭 ↗
+미리보기 열기
+블로그
+입문
+개발자 기술 블로그
+공부 기록을 남기는 개발 블로그 느낌.
+
+미리보기
+새 탭 ↗
+미리보기 열기
+학습·대시보드
+중급
+강좌 카탈로그 대시보드
+사이드바+카드 그리드 대시보드 구조 참고용.
+
+미리보기
+새 탭 ↗
+미리보기 열기
+학습·대시보드
+중급
+비디오 강의 플레이어
+영상 목록+플레이어 레이아웃.
+
+미리보기
+새 탭 ↗
+미리보기 열기
+회사·브랜드
+입문
+디지털 스튜디오 회사 소개
+회사 홈 기본 골격. 동아리·팀 소개에도.
+
+미리보기
+새 탭 ↗
+미리보기 열기
+회사·브랜드
+입문
+로스터리 카페 브랜드
+따뜻한 톤의 브랜드 사이트.
+
+미리보기
+새 탭 ↗
+미리보기 열기
+회사·브랜드
+중급
+IT 컨설팅 회사 (NEXUS)
+깔끔한 기업형 레이아웃.
+
+미리보기
+새 탭 ↗
+사진작가 포트폴리오
+✕
+미리보기
+소스코드
+새 탭 ↗
+index.html
+style.css
+script.js
+📋 복사
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HYE — 사진작가 포트폴리오</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand">HYE.<em>photo</em></a>
+    <nav>
+      <a href="#work" class="active">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>빛의 결을<br/>기록합니다.</h1>
+      <p>2018년부터 일상의 풍경과 사물, 도시를 사진으로 기록하고 있습니다.</p>
+    </section>
+
+    <section id="work" class="work">
+      <div class="filter">
+        <button class="f active" data-f="all">전체</button>
+        <button class="f" data-f="landscape">풍경</button>
+        <button class="f" data-f="city">도시</button>
+        <button class="f" data-f="object">사물</button>
+        <button class="f" data-f="travel">여행</button>
+      </div>
+
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section id="about" class="about">
+      <img class="about__img" src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=900&auto=format&fit=crop&q=80" alt="작업실의 카메라들" loading="lazy" />
+      <div class="about__text">
+        <p class="kicker">ABOUT</p>
+        <h2>이혜수 · 프리랜스 사진작가</h2>
+        <p>잡지 〈AROUND〉, 〈Magazine B〉와 협업했고, 2023년 첫 개인 사진집 「조용한 도시」를 출간했습니다.</p>
+        <ul>
+          <li>2024 — 그룹전 〈빛의 흔적〉 · 성수 D&amp;Department</li>
+          <li>2023 — 사진집 「조용한 도시」 출간</li>
+          <li>2022 — 잡지 AROUND 정기 기고</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>함께 작업해요</h2>
+      <p>커미션, 잡지, 인터뷰 촬영 문의는 메일로 보내주세요.</p>
+      <a href="/cdn-cgi/l/email-protection#fb939e979794bb93829ed58b93948f94" class="mail"><span class="__cf_email__" data-cfemail="c1a9a4adadae81a9b8a4efb1a9aeb5ae">[email&#160;protected]</span></a>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <span class="close">×</span>
+    <div class="lb-inner" id="lbInner"></div>
+  </div>
+
+  <footer class="foot">© 2025 HYE.photo · all images by Lee Hye-soo</footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+</body>
+</html>
+💡 이 코드를 AI에게 주고 "이 디자인을 참고해서 내 자기소개 사이트로 바꿔줘"라고 해보세요.
+
+서울아이티고 · AI 웹만들기 부트캠프
+
+코딩 몰라도, 오늘 내 웹사이트가 인터넷에 뜬다.
+
+오늘 실습
+학습 강의안
+프롬프트
+예제 갤러리
+온라인 학습
+배포하기
+진로·추천
+자랑하기
+서울아이티고등학교 5시간 특강 · 2026. 7. 13.(월)
+
+강의·운영 : DreamIT Biz(드림아이티비즈)
+
+담당강사 : 이애본, Ph.D · aebon@dreamitbiz.com
+
+© 2026 DreamIT Biz. 온라인 강의 영상 제공: AICADEMY.
